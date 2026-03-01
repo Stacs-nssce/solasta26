@@ -87,19 +87,28 @@ function EventsDetails(props) {
                   <p>{props.description}</p>
 
                   <div className="grid grid-cols-2 pt-6 text-[1.1rem] tracking-wide w-fit font-medium">
-                    <div className="flex flex-col pr-4">
-                      {props.pricepool != false && <span>Prize Pool :</span>}
-                      <span>Reg Fee :</span>
-                      <span>End Date :</span>
-                    </div>
-                    <div className="flex flex-col text-white font-bold">
-                      {props.pricepool != false && (
-                        <span className="font-normal"> ₹{props.pricepool}</span>
-                      )}
-                      <span className="font-normal"> ₹{props.regfee}</span>
-                      <span className="font-normal"> {props.enddate}</span>
-                    </div>
-                  </div>
+  <div className="flex flex-col pr-4">
+    {props.pricepool != false && <span>Prize Pool :</span>}
+    <span>Reg Fee :</span>
+    <span>End Date :</span>
+  </div>
+
+  <div className="flex flex-col text-white font-bold">
+    {props.pricepool != false && (
+      <span className="font-normal">
+        ₹{props.pricepool}
+      </span>
+    )}
+
+    <span className="font-normal">
+      {props.regfee === "0" ? "Free" : `₹${props.regfee}`}
+    </span>
+
+    <span className="font-normal">
+      {props.enddate}
+    </span>
+  </div>
+</div>
 
                   <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
                     Coordinator Details
@@ -136,26 +145,33 @@ function EventsDetails(props) {
               </div>
             </div>
 
-            {props.rulehead == "" ? null : (
-              <div className="font-clash flex flex-col mt-[2rem] p-3 md:p-6 rounded-xl justify-between w-full md:w-[90%] bg-gray/25">
-                <h1 className="font-semibold text-3xl">{props.rulehead}</h1>
-                <div className="flex flex-col gap-2 pt-4 text-lg md:text-xl">
-                  {props.rule1 == "" ? null : <p>{props.rule1}</p>}
-                  {props.rule2 == "" ? null : <p>{props.rule2}</p>}
-                  {props.rule3 == "" ? null : <p>{props.rule3}</p>}
-                  {props.rule4 == "" ? null : <p>{props.rule4}</p>}
-                  {props.rule5 == "" ? null : <p>{props.rule5}</p>}
-                  {props.rule6 == "" ? null : <p>{props.rule6}</p>}
-                  {props.rule7 == "" ? null : <p>{props.rule7}</p>}
-                  {props.rule8 == "" ? null : <p>{props.rule8}</p>}
-                  {props.rule9 == "" ? null : <p>{props.rule9}</p>}
-                  {props.rule10 == "" ? null : <p>{props.rule10}</p>}
-                  {props.rule11 == "" ? null : <p>{props.rule11}</p>}
-                  {props.rule12 == "" ? null : <p>{props.rule12}</p>}
-                  {props.rule13 == "" ? null : <p>{props.rule13}</p>}
-                </div>
-              </div>
-            )}
+            {props.rulehead === "" ? null : (
+  <div className="font-clash flex flex-col mt-[2rem] p-3 md:p-6 rounded-xl justify-between w-full md:w-[90%] bg-gray/25">
+    <h1 className="font-semibold text-3xl">{props.rulehead}</h1>
+
+    {/* If rules is sectioned format */}
+    {Array.isArray(props.rules) && props.rules.length > 0 && typeof props.rules[0] === "object" ? (
+      props.rules.map((section, index) => (
+        <div key={index} className="mt-6">
+          <h2 className="text-xl font-semibold mb-2">{section.title}</h2>
+          <ul className="list-disc pl-6 space-y-2 text-lg md:text-xl">
+            {section.points.map((point, i) => (
+              <li key={i}>{point}</li>
+            ))}
+          </ul>
+        </div>
+      ))
+    ) : (
+      /* Fallback for simple rules array */
+      <ul className="list-disc pl-6 space-y-2 text-lg md:text-xl mt-4">
+        {Array.isArray(props.rules) &&
+          props.rules.map((rule, index) => (
+            <li key={index}>{rule}</li>
+          ))}
+      </ul>
+    )}
+  </div>
+)}
           </div>
         </div>
 
@@ -230,19 +246,7 @@ export async function getStaticProps(context) {
       reglink: post.reglink || "",
       reg: post.reg || "",
       rulehead: post.ruleheader || "",
-      rule1: post.rules?.rule1 || null,
-      rule2: post.rules?.rule2 || null,
-      rule3: post.rules?.rule3 || null,
-      rule4: post.rules?.rule4 || null,
-      rule5: post.rules?.rule5 || null,
-      rule6: post.rules?.rule6 || null,
-      rule7: post.rules?.rule7 || null,
-      rule8: post.rules?.rule8 || null,
-      rule9: post.rules?.rule9 || null,
-      rule10: post.rules?.rule10 || null,
-      rule11: post.rules?.rule11 || null,
-      rule12: post.rules?.rule12 || null,
-      rule13: post.rules?.rule13 || null,
+      rules: post.rules || [],
     },
   };
 }
