@@ -12,18 +12,22 @@
         "description": "Join the ultimate Efootball tournament. Compete with the best and show your skills.",
         "time": "02/03/26 (Onwards)",
         "venue": "Online",
-        "c1name": "Nithin Shan",
+        "c1name": "Nidhin Shan",
         "c2name": "Rijuth",
         "c1no": "8075101602",
         "c2no": "7306391492",
         "pricepool": "1.5K",
         "regfee": "20",
         "enddate": "2026-02-28",
-        "reglink": "",
+        "reglink": "https://forms.gle/cK3hQF8dSE3HXvca6",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": false,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "ctf-intro",
@@ -33,18 +37,22 @@
         "description": "Learn the basics of CTF and cybersecurity.",
         "time": "4 pm to 6 pm (02/03/26)",
         "venue": "CSE Seminar hall (DLH)",
-        "c1name": "Coordinator",
-        "c2name": "",
-        "c1no": "0000000000",
-        "c2no": "",
+        "c1name": "Athul",
+        "c2name": "John",
+        "c1no": "9400834994",
+        "c2no": "8301094389",
         "pricepool": "0",
         "regfee": "0",
         "enddate": "2026-03-02",
-        "reglink": "",
+        "reglink": "https://forms.gle/nXPvpvCVCeHjS51y8",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": false,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "murder-mystery",
@@ -54,18 +62,22 @@
         "description": "Put on your detective hats and solve the crime scene.",
         "time": "4 pm to 6 pm (05/03/26)",
         "venue": "College Campus",
-        "c1name": "Coordinator",
-        "c2name": "",
-        "c1no": "0000000000",
-        "c2no": "",
+        "c1name": "Aravind R",
+        "c2name": "Hizan",
+        "c1no": "7012747606",
+        "c2no": "8891991446",
         "pricepool": "TBD",
         "regfee": "TBD",
         "enddate": "2026-03-05",
-        "reglink": "",
+        "reglink": "https://forms.gle/vTAgvEgYdasWSgKb6",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": false,
+        "hasRegistration": true,
+        "c3name": "Antony Niraj",
+        "c3no": "9947990840"
       },
       {
         "id": "inauguration",
@@ -86,7 +98,9 @@
         "reg": " Info",
         "ruleheader": "",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": false,
+        "hasRegistration": false
       },
       {
         "id": "cyber-security-workshop",
@@ -103,11 +117,15 @@
         "pricepool": "",
         "regfee": "90",
         "enddate": "2026-03-06",
-        "reglink": "",
+        "reglink": "https://forms.gle/ZATLvmxxbYhW2JMo8",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "Akshay",
+        "c3no": "8891120718"
       },
       {
         "id": "ctf",
@@ -124,11 +142,15 @@
         "pricepool": "15K",
         "regfee": "450",
         "enddate": "2026-03-07",
-        "reglink": "",
+        "reglink": "https://dedsec.solasta.live/",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": false,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "reel-making",
@@ -145,11 +167,15 @@
         "pricepool": "1K",
         "regfee": "0",
         "enddate": "2026-03-06",
-        "reglink": "",
+        "reglink": "https://forms.gle/6MP7twCSZGNLuRG38",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "Abhimanew",
+        "c3no": "7012167823"
       },
       {
         "id": "innovation-auction",
@@ -159,14 +185,14 @@
         "description": "Auction your innovative ideas.",
         "time": "1 pm to 4 pm (07/03/26)",
         "venue": "Turing Hall",
-        "c1name": "Jyotsna",
-        "c2name": "Ayush",
-        "c1no": "8547134960",
-        "c2no": "7012329099",
+        "c1name": "Ayush",
+        "c2name": "Jyotsna",
+        "c1no": "7012329099",
+        "c2no": "8547134960",
         "pricepool": "2K",
         "regfee": "30",
         "enddate": "2026-03-07",
-        "reglink": "",
+        "reglink": "https://forms.gle/dANRjvPhFpPE6pJ47",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": [
@@ -193,7 +219,11 @@
             ]
           }
         ],
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "tech-quiz",
@@ -203,14 +233,14 @@
         "description": "A quiz for the tech-savvy.",
         "time": "10 am to 12 (07/03/26)",
         "venue": "Eone Hall",
-        "c1name": "Gautham",
+        "c1name": "Gautam",
         "c2name": "Nandana",
         "c1no": "9496922911",
         "c2no": "8592965597",
         "pricepool": "1K",
         "regfee": "20",
         "enddate": "2026-03-07",
-        "reglink": "",
+        "reglink": "https://forms.gle/m4wU9oE7q18w9sno8",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": [
@@ -220,7 +250,11 @@
           "The use of electronic devices by participants is strictly prohibited during the quiz.",
           "Any rule violations will result in immediate disqualification."
         ],
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "1-vs-1-coding",
@@ -237,11 +271,15 @@
         "pricepool": "1.5K",
         "regfee": "25",
         "enddate": "2026-03-07",
-        "reglink": "",
+        "reglink": "https://forms.gle/AUU3thNiZbwnAKDz8",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "community-connect",
@@ -261,7 +299,9 @@
         "reg": "Register",
         "ruleheader": "",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": false,
+        "hasRegistration": false
       },
       {
         "id": "zine-workshop",
@@ -273,16 +313,20 @@
         "venue": "Auditorium",
         "c1name": "Minnah",
         "c2name": "Krishnapriya",
-        "c1no": "9444629711",
+        "c1no": "9446297211",
         "c2no": "6238398516",
         "pricepool": "",
         "regfee": "30",
         "enddate": "2026-03-08",
-        "reglink": "",
+        "reglink": "https://forms.gle/XznSV2b9RdDkauon7",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "Snoopa",
+        "c3no": "8606824703"
       },
       {
         "id": "debate",
@@ -292,18 +336,22 @@
         "description": "Debate competition.",
         "time": "9 am to 12 (08/03/26)",
         "venue": "CSE Seminar hall (DLH)",
-        "c1name": "Coordinator",
-        "c2name": "",
-        "c1no": "0000000000",
-        "c2no": "",
+        "c1name": "Adithi",
+        "c2name": "Arjun Dev",
+        "c1no": "6235302706",
+        "c2no": "9446590555",
         "pricepool": "TBD",
         "regfee": "TBD",
         "enddate": "2026-03-08",
-        "reglink": "",
+        "reglink": "https://forms.gle/sZ2wXkLRCy7pqcsFA",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": {},
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "wikichase",
@@ -320,7 +368,7 @@
         "pricepool": "1K",
         "regfee": "20",
         "enddate": "2026-03-08",
-        "reglink": "",
+        "reglink": "https://forms.gle/XmepNSUGeFJGu77H7",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": [
@@ -371,7 +419,11 @@
             ]
           }
         ],
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "blind-coding",
@@ -388,7 +440,7 @@
         "pricepool": "200",
         "regfee": "40",
         "enddate": "2026-03-08",
-        "reglink": "",
+        "reglink": "https://forms.gle/QM6vXaGfcSTzvvx67",
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": [
@@ -401,7 +453,11 @@
           "Follow the time limits strictly for explanation and coding.",
           "The decision of the judges will be final."
         ],
-        "url": ""
+        "url": "",
+        "isRegOpen": true,
+        "hasRegistration": true,
+        "c3name": "",
+        "c3no": ""
       },
       {
         "id": "culturals",
@@ -422,7 +478,9 @@
         "ruleheader": "",
         "rules": {},
         "img": "/cultural/cultural_poster.png",
-        "url": ""
+        "url": "",
+        "isRegOpen": false,
+        "hasRegistration": false
       }
     ]
   ]

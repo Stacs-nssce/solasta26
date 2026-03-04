@@ -4,19 +4,22 @@ import Link from "next/link";
 export default function RitModel() {
   const itemList = [
     {
+      id: 1,
+      title: "Technical Events",
+      image: "/slider/opt_tech.jpg",
+      link: "/events/technical",
+    },
+    {
       id: 2,
-      title: "Events",
-      image: "/slider/events.jpg",
+      title: "Non Technical",
+      image: "/slider/opt_nontech.png",
+      link: "/events/non-technical",
     },
     {
       id: 3,
-      title: "Games",
-      image: "/slider/games.jpg",
-    },
-    {
-      id: 4,
-      title: "Workshops",
-      image: "/slider/workshop.avif",
+      title: "Pre Events",
+      image: "/slider/opt_preevents.png",
+      link: "/events/pre",
     },
   ];
 
@@ -69,7 +72,7 @@ export default function RitModel() {
                 {item.title}
               </h1>
             </div>
-            <Link href={`/events`} className="absolute inset-0">
+            <Link href={item.link || `/events`} className="absolute inset-0">
               <div className="h-full w-full"></div>
             </Link>
           </article>

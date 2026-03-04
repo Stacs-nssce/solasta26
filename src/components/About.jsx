@@ -88,7 +88,7 @@ export default function About() {
             celebrates the technical expertise and artistic talents of aspiring
             engineers, featuring competitive coding battles, cybersecurity
             challenges, innovation showcases, creative workshops, and a vibrant
-            cultural night. From the overnight CTF to the Innovation Auction,{" "}
+            cultural night. From the intense 10-hour CTF to the Innovation Auction,{" "}
             <b>
               {siteConfig.eventName}'{siteConfig.eventYear.slice(2)}
             </b>{" "}

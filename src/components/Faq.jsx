@@ -17,7 +17,7 @@ const faqs = [
     id: "collapsible3",
     question: "What are the flagship events this year?",
     answer:
-      "Solasta '26 features three flagship events: the overnight CTF (Capture The Flag) cybersecurity challenge, the 1 vs 1 Coding battle, and the Innovation Auction — a unique tech-business hybrid event. Don't miss them!",
+      "Solasta '26 features three flagship events: the intense 10-hour CTF (Capture The Flag) cybersecurity challenge, the 1 vs 1 Coding battle, and the Innovation Auction — a unique tech-business hybrid event. Don't miss them!",
   },
   {
     id: "collapsible4",

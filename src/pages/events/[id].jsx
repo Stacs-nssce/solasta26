@@ -86,62 +86,98 @@ function EventsDetails(props) {
                   </h3>
                   <p>{props.description}</p>
 
-                  <div className="grid grid-cols-2 pt-6 text-[1.1rem] tracking-wide w-fit font-medium">
-  <div className="flex flex-col pr-4">
-    {props.pricepool != false && <span>Prize Pool :</span>}
-    <span>Reg Fee :</span>
-    <span>End Date :</span>
-  </div>
+                  {props.hasRegistration && (
+                    <div className="grid grid-cols-2 pt-6 text-[1.1rem] tracking-wide w-fit font-medium">
+                      <div className="flex flex-col pr-4">
+                        {props.pricepool != false && <span>Prize Pool :</span>}
+                        <span>Reg Fee :</span>
+                        <span>End Date :</span>
+                      </div>
 
-  <div className="flex flex-col text-white font-bold">
-    {props.pricepool != false && (
-      <span className="font-normal">
-        ₹{props.pricepool}
-      </span>
-    )}
+                      <div className="flex flex-col text-white font-bold">
+                        {props.pricepool != false && (
+                          <span className="font-normal">
+                            ₹{props.pricepool}
+                          </span>
+                        )}
 
-    <span className="font-normal">
-      {props.regfee === "0" ? "Free" : `₹${props.regfee}`}
-    </span>
-
-    <span className="font-normal">
-      {props.enddate}
-    </span>
-  </div>
-</div>
-
-                  <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
-                    Coordinator Details
-                  </h3>
-
-                  <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
-                    <div className="flex flex-col pr-4">
-                      <span>{props.c1name} :</span>
-                      {props.c2name != false && <span>{props.c2name} :</span>}
-                    </div>
-                    <div className="flex flex-col text-white font-bold">
-                      <Link href={`tel:${props.c1number}`}>
-                        <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
-                          {props.c1number}
+                        <span className="font-normal">
+                          {props.regfee === "0" ? "Free" : `₹${props.regfee}`}
                         </span>
-                      </Link>
-                      <Link href={`tel:${props.c2number}`}>
-                        <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
-                          {props.c2number}
+
+                        <span className="font-normal">
+                          {props.enddate}
                         </span>
-                      </Link>
+                      </div>
                     </div>
-                  </div>
+                  )}
+
+                  {props.c1name !== "" && props.c1name !== "Coordinator" && (
+                    <>
+                      <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
+                        Coordinator Details
+                      </h3>
+
+                      <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
+                        <div className="flex flex-col pr-4">
+                          <span>{props.c1name} :</span>
+                          {props.c2name != false && props.c2name !== "" && <span>{props.c2name} :</span>}
+                          {props.c3name != false && props.c3name !== "" && <span>{props.c3name} :</span>}
+                        </div>
+                        <div className="flex flex-col text-white font-bold">
+                          <Link href={`tel:${props.c1number}`}>
+                            <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
+                              {props.c1number}
+                            </span>
+                          </Link>
+                          {props.c2name != false && props.c2name !== "" && (
+                            <Link href={`tel:${props.c2number}`}>
+                              <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
+                                {props.c2number}
+                              </span>
+                            </Link>
+                          )}
+                          {props.c3name != false && props.c3name !== "" && (
+                            <Link href={`tel:${props.c3number}`}>
+                              <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
+                                {props.c3number}
+                              </span>
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
 
-                <button
-                  className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out"
-                  onClick={() => {
-                    props.reg == "Register Closed" ? null : setPopUp(true);
-                  }}
-                >
-                  {props.reg}
-                </button>
+                {props.hasRegistration ? (
+                  <button
+                    className={`relative bottom-5 w-full rounded-full p-2 font-medium transition duration-300 ease-in-out ${
+                      props.isRegOpen === false || props.reg === "Register Closed"
+                        ? "bg-white/20 text-white/50 cursor-not-allowed hover:bg-white/20 hover:text-white/50"
+                        : "bg-white text-black hover:bg-gray hover:text-white"
+                    }`}
+                    disabled={props.isRegOpen === false || props.reg === "Register Closed"}
+                    onClick={() => {
+                      if (props.isRegOpen !== false && props.reg !== "Register Closed") {
+                        if (props.reglink && props.reglink !== "") {
+                          window.open(props.reglink, "_blank", "noopener,noreferrer");
+                        } else {
+                          setPopUp(true);
+                        }
+                      }
+                    }}
+                  >
+                    {props.isRegOpen === false || props.reg === "Register Closed" ? "Registration Closed" : props.reg}
+                  </button>
+                ) : (
+                  <div className="relative bottom-5 w-full flex items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 border border-white/10 p-3.5 font-medium text-center text-white/90 backdrop-blur-sm shadow-[0_0_15px_rgba(16,185,129,0.1)]">
+                    <svg className="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>No registration required. Just come and enjoy!</span>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -239,12 +275,16 @@ export async function getStaticProps(context) {
       c1number: post.c1no || "",
       c2name: post.c2name || false,
       c2number: post.c2no || false,
+      c3name: post.c3name || false,
+      c3number: post.c3no || false,
       regfee: post.regfee || "",
       pricepool: post.pricepool || false,
       enddate: post.enddate || "",
       register: post.reg || "",
       reglink: post.reglink || "",
       reg: post.reg || "",
+      isRegOpen: post.isRegOpen !== undefined ? post.isRegOpen : true,
+      hasRegistration: post.hasRegistration !== undefined ? post.hasRegistration : true,
       rulehead: post.ruleheader || "",
       rules: post.rules || [],
     },

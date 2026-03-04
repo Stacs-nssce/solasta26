@@ -13,7 +13,7 @@ const flagshipEvents = [
     date: "Mar 7",
     venue: "CSE Seminar hall (DLH)",
     description:
-      "An overnight hacking and cybersecurity challenge. Crack ciphers, exploit vulnerabilities, and race against the clock in this signature Solasta event.",
+      "An intense 10-hour hacking and cybersecurity challenge. Crack ciphers, exploit vulnerabilities, and race against the clock in this signature Solasta event.",
     icon: "🛡️",
     gradient: "from-cyan-500/20 to-blue-600/20",
     borderColor: "hover:border-cyan-400/50",
