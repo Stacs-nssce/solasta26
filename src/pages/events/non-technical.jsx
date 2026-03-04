@@ -92,7 +92,6 @@ export default function NonTechnicalEvents({ posts }) {
     "wikichase",
     "debate",
     "reel-making",
-    "culturals",
     // add others if needed (e.g. inauguration?)
   ];
 

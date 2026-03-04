@@ -331,7 +331,54 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": [
+  {
+    "title": "Objective",
+    "points": [
+      "Navigate from the given Starting Page to the Target Page using only internal Wikipedia hyperlinks."
+    ]
+  },
+  {
+    "title": "Allowed",
+    "points": [
+      "Clicking blue hyperlinks within the article",
+      "Navigating only inside wikipedia.org"
+    ]
+  },
+  {
+    "title": "Not Allowed",
+    "points": [
+      "Using search bar",
+      "Back button",
+      "Opening new tabs",
+      "Editing the URL",
+      "External links",
+      "Ctrl + F / Find",
+      "Sidebar shortcuts"
+    ]
+  },
+  {
+    "title": "Disqualification",
+    "points": [
+      "Violation of any rule leads to immediate disqualification."
+    ]
+  },
+  {
+    "title": "Round 1 – Qualifier",
+    "points": [
+      "All participants start together.",
+      "First 5 to reach the target qualify.",
+      "Tie-breaker: Fewer clicks wins."
+    ]
+  },
+  {
+    "title": "Round 2 – Final",
+    "points": [
+      "Top 5 compete with a new challenge.",
+      "Fastest and most efficient (least clicks) wins."
+    ]
+  }
+]
       },
       {
         "id": "blind-coding",
