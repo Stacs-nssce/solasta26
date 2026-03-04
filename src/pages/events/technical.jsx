@@ -143,105 +143,68 @@ export default function TechnicalEvents({ posts }) {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: i * 0.06 }}
                 >
-                  <Link href={`/events/${post.id}`}>
-                    <div className="group relative rounded-2xl overflow-hidden border border-white/10 bg-white/[0.02] backdrop-blur-xl transition-all duration-500 hover:border-white/20 hover:bg-white/[0.05] hover:shadow-[0_8px_40px_rgba(0,0,0,0.3)] cursor-pointer h-full">
-                      {/* Image */}
-                      <div className="relative h-48 overflow-hidden">
-                        <Image
-                          src={post.img}
-                          width={500}
-                          height={300}
-                          alt={post.title}
-                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-soothing_black via-soothing_black/20 to-transparent" />
-                        <div className="absolute top-3 left-3">
-                          <span
-                            className={`font-ibm text-[9px] tracking-[0.15em] uppercase px-2.5 py-1 rounded-full ${colors.bg} ${colors.text} border ${colors.border} backdrop-blur-sm`}
-                          >
-                            {eventType}
-                          </span>
-                        </div>
-                      </div>
-
-                      {/* Content */}
-                      <div className="p-5">
-                        <h3 className="font-clash font-bold text-xl text-white group-hover:text-main_primary transition-colors duration-300 mb-1">
-                          {post.title}
-                        </h3>
-                        <p className="font-chakra text-sm text-white/40 mb-4 line-clamp-2">
-                          {post.description || post.content || "Event details coming soon"}
-                        </p>
-
-                        {/* Meta */}
-                        <div className="flex flex-wrap items-center gap-3 font-ibm text-[10px] text-white/30">
-                          {post.time && (
-                            <span className="flex items-center gap-1.5">
-                              <svg
-                                className="w-3 h-3 text-main_primary/40"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                                />
-                              </svg>
-                              {post.time}
-                            </span>
-                          )}
-                          {post.venue && (
-                            <span className="flex items-center gap-1.5">
-                              <svg
-                                className="w-3 h-3 text-main_primary/40"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                                />
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                                />
-                              </svg>
-                              {post.venue}
-                            </span>
-                          )}
-                        </div>
-
-                        {/* Arrow */}
-                        <div className="flex items-center gap-2 mt-4 pt-4 border-t border-white/5">
-                          <span className="font-clash font-semibold text-xs text-main_primary/60 group-hover:text-main_primary transition-colors">
-                            View Details
-                          </span>
-                          <svg
-                            className="w-3.5 h-3.5 text-main_primary/40 group-hover:text-main_primary group-hover:translate-x-1 transition-all duration-300"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="M17 8l4 4m0 0l-4 4m4-4H3"
-                            />
+                  <Link href={`/events/${post.id}`} className="block h-full w-full group overflow-hidden rounded-[2rem] bg-soothing_black border border-white/10 hover:border-white/30 transition-colors duration-500 relative">
+                    <div className="absolute inset-0 z-0">
+                      <Image
+                        src={post.img || '/general_tech_events/cyber.jpeg'}
+                        width={600}
+                        height={800}
+                        alt={post.title}
+                        className="w-full h-full object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:scale-[1.15]"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-b from-soothing_black/20 via-soothing_black/60 to-soothing_black group-hover:to-soothing_black/90 transition-all duration-500" />
+                    </div>
+                    
+                    <div className="relative z-10 p-6 md:p-8 flex flex-col justify-between h-full min-h-[25rem]">
+                      <div className="flex justify-between items-start">
+                        <span className={`font-ibm text-[10px] tracking-[0.2em] font-medium uppercase px-4 py-2 rounded-full ${colors.bg} ${colors.text} border ${colors.border} backdrop-blur-md transition-transform duration-500`}>
+                          {eventType}
+                        </span>
+                        
+                        <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center bg-white/5 backdrop-blur-md opacity-0 -translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-100">
+                          <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                           </svg>
                         </div>
                       </div>
 
-                      {/* Bottom hover accent */}
-                      <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-main_primary/40 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+                      <div className="mt-auto transform transition-transform duration-500 group-hover:-translate-y-2">
+                        <h3 className="font-clash font-semibold text-3xl md:text-3.5xl text-white mb-2 leading-tight">
+                          {post.title}
+                        </h3>
+                        
+                        <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                          <div className="overflow-hidden">
+                            <p className="font-chakra text-sm md:text-base text-white/70 mb-5 line-clamp-3">
+                              {post.description || post.content || "Event details coming soon"}
+                            </p>
+                          </div>
+                        </div>
+
+                        <div className="flex flex-col gap-2.5">
+                          {post.time && (
+                            <div className="flex items-center gap-3 font-ibm text-xs md:text-sm text-white/80">
+                              <div className="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center">
+                                <svg className="w-3 h-3 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                              </div>
+                              {post.time}
+                            </div>
+                          )}
+                          {post.venue && (
+                            <div className="flex items-center gap-3 font-ibm text-xs md:text-sm text-white/80">
+                              <div className="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center">
+                                <svg className="w-3 h-3 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                              </div>
+                              {post.venue}
+                            </div>
+                          )}
+                        </div>
+                      </div>
                     </div>
                   </Link>
                 </motion.div>
