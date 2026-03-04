@@ -22,7 +22,8 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "ctf-intro",
@@ -42,11 +43,13 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "murder-mystery",
         "title": "Murder Mystery",
+        "img": "/games/mystery.jpg",
         "content": "Solve the Mystery",
         "description": "Put on your detective hats and solve the crime scene.",
         "time": "4 pm to 6 pm (05/03/26)",
@@ -61,11 +64,13 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "inauguration",
         "title": "Inauguration",
+        "img": "/inauguration_poster.png",
         "content": "Solasta'26 Inauguration Ceremony",
         "description": "The official kickoff of Solasta'26.",
         "time": "11 am (06/03/26)",
@@ -80,7 +85,8 @@
         "reglink": "",
         "reg": " Info",
         "ruleheader": "",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "cyber-security-workshop",
@@ -100,7 +106,8 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "ctf",
@@ -120,7 +127,8 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "reel-making",
@@ -140,7 +148,8 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "innovation-auction",
@@ -179,11 +188,12 @@
               "5 minutes to present.",
               "The final pitch must combine one item from each list and clearly explain their connection and usefulness.",
               "Creativity, clarity, and engagement are key.",
-              "Judges\u2019 decisions are final.",
+              "Judges’ decisions are final.",
               "Think creatively and have fun!"
             ]
           }
-        ]
+        ],
+        "url": ""
       },
       {
         "id": "tech-quiz",
@@ -209,7 +219,8 @@
           "The Quizmaster's decision is final and binding.",
           "The use of electronic devices by participants is strictly prohibited during the quiz.",
           "Any rule violations will result in immediate disqualification."
-        ]
+        ],
+        "url": ""
       },
       {
         "id": "1-vs-1-coding",
@@ -229,7 +240,8 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "community-connect",
@@ -248,7 +260,8 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "zine-workshop",
@@ -268,11 +281,13 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "debate",
         "title": "Debate",
+        "img": "/cultural/debate.jpg",
         "content": "Speak Your Mind",
         "description": "Debate competition.",
         "time": "9 am to 12 (08/03/26)",
@@ -287,7 +302,8 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-        "rules": {}
+        "rules": {},
+        "url": ""
       },
       {
         "id": "wikichase",
@@ -340,7 +356,7 @@
             ]
           },
           {
-            "title": "Round 1 \u2013 Qualifier",
+            "title": "Round 1 – Qualifier",
             "points": [
               "All participants start together.",
               "First 5 to reach the target qualify.",
@@ -348,13 +364,14 @@
             ]
           },
           {
-            "title": "Round 2 \u2013 Final",
+            "title": "Round 2 – Final",
             "points": [
               "Top 5 compete with a new challenge.",
               "Fastest and most efficient (least clicks) wins."
             ]
           }
-        ]
+        ],
+        "url": ""
       },
       {
         "id": "blind-coding",
@@ -379,11 +396,12 @@
           "Each round has 1 coding problem.",
           "Teams of two must assign roles: Reader and Writer.",
           "The Reader will be shown the problem for a specified time and must explain it (including input/output format) to the Writer.",
-          "The Writer cannot see the problem and must code based only on the Reader\u2019s explanation.",
+          "The Writer cannot see the problem and must code based only on the Reader’s explanation.",
           "Roles must be swapped after each round.",
           "Follow the time limits strictly for explanation and coding.",
           "The decision of the judges will be final."
-        ]
+        ],
+        "url": ""
       },
       {
         "id": "culturals",
@@ -403,7 +421,8 @@
         "reg": "Join",
         "ruleheader": "",
         "rules": {},
-        "img": "/cultural/cultural_poster.png"
+        "img": "/cultural/cultural_poster.png",
+        "url": ""
       }
     ]
   ]

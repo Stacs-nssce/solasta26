@@ -87,12 +87,14 @@ export default function NonTechnicalEvents({ posts }) {
   }, []);
 
   const nonTechnicalIds = [
-    "innovation-auction",
-    "zine-workshop",
-    "wikichase",
-    "debate",
+    "inauguration",
     "reel-making",
-    // add others if needed (e.g. inauguration?)
+    "innovation-auction",
+    "community-connect",
+    "zine-workshop",
+    "debate",
+    "wikichase",
+    "culturals",
   ];
 
   const filteredPosts = posts.flat().filter((p) => nonTechnicalIds.includes(p.id));

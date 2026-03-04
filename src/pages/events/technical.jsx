@@ -88,13 +88,11 @@ export default function TechnicalEvents({ posts }) {
   }, []);
 
   const technicalIds = [
-    "blind-coding",
-    "1-vs-1-coding",
-    "tech-quiz",
+    "cyber-security-workshop",
     "ctf",
-    "exhibition",
-    "cyber-security-workshop",     // ← added here
-    // "workshop",
+    "tech-quiz",
+    "1-vs-1-coding",
+    "blind-coding",
   ];
 
   const filteredPosts = posts.flat().filter((p) => technicalIds.includes(p.id));
@@ -105,7 +103,7 @@ export default function TechnicalEvents({ posts }) {
         <title>Technical Events | {siteConfig.eventName} '26</title>
         <meta
           name="description"
-          content="Technical events at Solasta '26 – CTF, coding competitions, tech quiz, exhibitions, cybersecurity workshop and more"
+          content="Technical events at Solasta '26 – CTF, coding competitions, tech quiz, programming workshop and more"
         />
       </Head>
 

@@ -32,7 +32,7 @@ export default function Events() {
       title: "Technical Events",
       href: "/events/technical",
       color: "from-cyan-500 to-cyan-300",
-      description: "CTF, Coding battles, Tech Quiz, Exhibitions & more",
+      description: "CTF, Coding battles, Tech Quiz, Workshops & more",
     },
     {
       title: "Non Technical Events",
@@ -44,7 +44,7 @@ export default function Events() {
       title: "Pre Events",
       href: "/events/pre",
       color: "from-purple-500 to-purple-300",
-      description: "Efootball, LAN Gaming, Murder Mystery & more",
+      description: "Efootball, CTF Intro, Murder Mystery & more",
     },
   ];
 

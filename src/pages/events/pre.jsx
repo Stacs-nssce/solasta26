@@ -88,10 +88,8 @@ export default function PreEvents({ posts }) {
 
   const preEventIds = [
     "efootball",
-    "lan-gaming",
     "ctf-intro",
     "murder-mystery",
-    // add more if needed
   ];
 
   const filteredPosts = posts.flat().filter((p) => preEventIds.includes(p.id));
@@ -102,7 +100,7 @@ export default function PreEvents({ posts }) {
         <title>Pre Events | {siteConfig.eventName} '26</title>
         <meta
           name="description"
-          content="Pre-events at Solasta '26 – eFootball, LAN gaming, murder mystery and more"
+          content="Pre-events at Solasta '26 – eFootball, CTF intro, murder mystery and more"
         />
       </Head>
 

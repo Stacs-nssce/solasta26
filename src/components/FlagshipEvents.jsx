@@ -9,9 +9,9 @@ const flagshipEvents = [
     id: "ctf",
     title: "CTF",
     subtitle: "Capture The Flag",
-    time: "7 PM – 7 AM",
-    date: "Mar 6–7",
-    venue: "Programming Lab",
+    time: "9 AM – 7 PM",
+    date: "Mar 7",
+    venue: "CSE Seminar hall (DLH)",
     description:
       "An overnight hacking and cybersecurity challenge. Crack ciphers, exploit vulnerabilities, and race against the clock in this signature Solasta event.",
     icon: "🛡️",
@@ -23,7 +23,7 @@ const flagshipEvents = [
     id: "1v1-coding",
     title: "1 vs 1",
     subtitle: "Coding Battle",
-    time: "1 PM – 4 PM",
+    time: "9 AM – 12 PM",
     date: "Mar 7",
     venue: "Programming Lab",
     description:
@@ -37,9 +37,9 @@ const flagshipEvents = [
     id: "innovation-auction",
     title: "Innovation",
     subtitle: "Auction",
-    time: "9 AM – 12 PM",
+    time: "1 PM – 4 PM",
     date: "Mar 7",
-    venue: "Seminar Hall",
+    venue: "Turing Hall",
     description:
       "A unique tech-business hybrid event where you pitch innovative ideas and compete through strategic bidding — where creativity meets commerce.",
     icon: "💡",
