@@ -10,7 +10,7 @@
         "img": "/games/football.jpeg",
         "content": "Online Efootball Tournament",
         "description": "Join the ultimate Efootball tournament. Compete with the best and show your skills.",
-        "time": "26/02/26 TO 28/02/26",
+        "time": "02/03/26 (Onwards)",
         "venue": "Online",
         "c1name": "Nithin Shan",
         "c2name": "Rijuth",
@@ -31,7 +31,7 @@
         "content": "Introduction to Capture The Flag",
         "description": "Learn the basics of CTF and cybersecurity.",
         "time": "4 pm to 6 pm (02/03/26)",
-        "venue": "Seminar hall",
+        "venue": "CSE Seminar hall (DLH)",
         "c1name": "Coordinator",
         "c2name": "",
         "c1no": "0000000000",
@@ -45,40 +45,19 @@
         "rules": {}
       },
       {
-        "id": "lan-gaming",
-        "title": "Lan Gaming",
-        "img": "/games/lan.jpeg",
-        "content": "Local Area Network Gaming",
-        "description": "Experience high-speed low-latency gaming with friends.",
-        "time": "4 pm to 6 pm (03/03/26)",
-        "venue": "Seminar hall",
-        "c1name": "Abhinav",
-        "c2name": "Adarsh",
-        "c1no": "6235670447",
-        "c2no": "8301998051",
-        "pricepool": "1.5K",
-        "regfee": "20",
-        "enddate": "2026-03-03",
-        "reglink": "",
-        "reg": "Register",
-        "ruleheader": "Rules",
-        "rules": {}
-      },
-      {
         "id": "murder-mystery",
         "title": "Murder Mystery",
-       
         "content": "Solve the Mystery",
         "description": "Put on your detective hats and solve the crime scene.",
-        "time": "4 pm to 6 pm (04/03/26)",
-        "venue": "TBD",
+        "time": "4 pm to 6 pm (05/03/26)",
+        "venue": "College Campus",
         "c1name": "Coordinator",
         "c2name": "",
         "c1no": "0000000000",
         "c2no": "",
         "pricepool": "TBD",
         "regfee": "TBD",
-        "enddate": "2026-03-04",
+        "enddate": "2026-03-05",
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
@@ -87,10 +66,9 @@
       {
         "id": "inauguration",
         "title": "Inauguration",
-       
         "content": "Solasta'26 Inauguration Ceremony",
         "description": "The official kickoff of Solasta'26.",
-        "time": "10 am (06/03/26)",
+        "time": "11 am (06/03/26)",
         "venue": "Auditorium",
         "c1name": "",
         "c2name": "",
@@ -106,11 +84,11 @@
       },
       {
         "id": "cyber-security-workshop",
-        "title": "Cyber Security Workshop",
+        "title": "Workshop",
         "img": "/general_tech_events/cyber.jpeg",
         "content": "Technical Workshop",
         "description": "Enhance your skills with our expert-led workshop.",
-        "time": "1 pm to 5 pm (06/03/26)",
+        "time": "1 pm to 5.30 pm (06/03/26)",
         "venue": "Programming Lab",
         "c1name": "Abhinav",
         "c2name": "Aiswarya",
@@ -130,15 +108,15 @@
         "img": "/games/ctf.jpg",
         "content": "Capture The Flag Competition",
         "description": "Overnight hacking challenge.",
-        "time": "6th 7 pm to 7th 7 am",
-        "venue": "Programming Lab",
+        "time": "9 am to 7 pm (07/03/26)",
+        "venue": "CSE Seminar hall (DLH)",
         "c1name": "John",
         "c2name": "Dilshad",
         "c1no": "8301094389",
         "c2no": "8714381226",
         "pricepool": "15K",
         "regfee": "450",
-        "enddate": "2026-03-06",
+        "enddate": "2026-03-07",
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
@@ -150,7 +128,7 @@
         "img": "/general_tech_events/reel.jpeg",
         "content": "Reel Making Competition",
         "description": "Create the most engaging reels for Solasta'26.",
-        "time": "6th to 8th",
+        "time": "6th (Onwards)",
         "venue": "Campus",
         "c1name": "Aiswarya S",
         "c2name": "Midhunraj",
@@ -170,8 +148,8 @@
         "img": "/general_tech_events/Best_Manager.jpeg",
         "content": "Pitch and Bid",
         "description": "Auction your innovative ideas.",
-        "time": "9 am to 12 (07/03/26)",
-        "venue": "Seminar hall",
+        "time": "1 pm to 4 pm (07/03/26)",
+        "venue": "Turing Hall",
         "c1name": "Jyotsna",
         "c2name": "Ayush",
         "c1no": "8547134960",
@@ -182,39 +160,39 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-"rules": [
-  {
-    "title": "General Rules",
-    "points": [
-      "Each team starts with 1,000 TechCoins.",
-      "The auction includes two lists: Futuristic Tech Inventions and Futuristic Applications.",
-      "Every team must purchase at least one item from each list.",
-      "Bids start at a base price and must follow the minimum increment.",
-      "Bids cannot be withdrawn, exchanged, or reversed once won.",
-      "Teams may buy multiple items within their budget."
-    ]
-  },
-  {
-    "title": "Presentation",
-    "points": [
-      "5 minutes preparation time after the auction.",
-      "5 minutes to present.",
-      "The final pitch must combine one item from each list and clearly explain their connection and usefulness.",
-      "Creativity, clarity, and engagement are key.",
-      "Judges’ decisions are final.",
-      "Think creatively and have fun!"
-    ]
-  }
-]
+        "rules": [
+          {
+            "title": "General Rules",
+            "points": [
+              "Each team starts with 1,000 TechCoins.",
+              "The auction includes two lists: Futuristic Tech Inventions and Futuristic Applications.",
+              "Every team must purchase at least one item from each list.",
+              "Bids start at a base price and must follow the minimum increment.",
+              "Bids cannot be withdrawn, exchanged, or reversed once won.",
+              "Teams may buy multiple items within their budget."
+            ]
+          },
+          {
+            "title": "Presentation",
+            "points": [
+              "5 minutes preparation time after the auction.",
+              "5 minutes to present.",
+              "The final pitch must combine one item from each list and clearly explain their connection and usefulness.",
+              "Creativity, clarity, and engagement are key.",
+              "Judges\u2019 decisions are final.",
+              "Think creatively and have fun!"
+            ]
+          }
+        ]
       },
       {
         "id": "tech-quiz",
-        "title": "Byte Quest",
+        "title": "Tech Quiz",
         "img": "/games/byte.jpg",
         "content": "Test Your Tech Knowledge",
         "description": "A quiz for the tech-savvy.",
         "time": "10 am to 12 (07/03/26)",
-        "venue": "Classroom",
+        "venue": "Eone Hall",
         "c1name": "Gautham",
         "c2name": "Nandana",
         "c1no": "9496922911",
@@ -225,13 +203,13 @@
         "reglink": "",
         "reg": "Register",
         "ruleheader": "Rules",
-"rules": [
-  "Please arrive to the quiz on time.",
-  "No refunds will be given to absentees.",
-  "The Quizmaster's decision is final and binding.",
-  "The use of electronic devices by participants is strictly prohibited during the quiz.",
-  "Any rule violations will result in immediate disqualification."
-]
+        "rules": [
+          "Please arrive to the quiz on time.",
+          "No refunds will be given to absentees.",
+          "The Quizmaster's decision is final and binding.",
+          "The use of electronic devices by participants is strictly prohibited during the quiz.",
+          "Any rule violations will result in immediate disqualification."
+        ]
       },
       {
         "id": "1-vs-1-coding",
@@ -239,7 +217,7 @@
         "img": "/general_tech_events/code.jpeg",
         "content": "Head to Head Coding Battle",
         "description": "Prove your coding speed and logic.",
-        "time": "1 pm to 4 pm (07/03/26)",
+        "time": "9 am to 12 (07/03/26)",
         "venue": "Programming Lab",
         "c1name": "Ayush R Kumar",
         "c2name": "Arjun K",
@@ -254,22 +232,21 @@
         "rules": {}
       },
       {
-        "id": "exhibition",
-        "title": "Exhibition",
-       
-        "content": "Projects, Tools & VR",
-        "description": "Explore innovative projects and VR experiences.",
-        "time": "1 pm to 4.30 pm (07/03/26)",
-        "venue": "Classroom",
+        "id": "community-connect",
+        "title": "Community Connect",
+        "content": "Community Meetup",
+        "description": "Join our community meet and connect with peers.",
+        "time": "4 pm to 7 pm (07/03/26)",
+        "venue": "Mexicana",
         "c1name": "Coordinator",
         "c2name": "",
         "c1no": "0000000000",
         "c2no": "",
-        "pricepool": "",
+        "pricepool": "TBD",
         "regfee": "Free",
         "enddate": "2026-03-07",
         "reglink": "",
-        "reg": "Visit",
+        "reg": "Register",
         "ruleheader": "",
         "rules": {}
       },
@@ -296,11 +273,10 @@
       {
         "id": "debate",
         "title": "Debate",
-        
         "content": "Speak Your Mind",
         "description": "Debate competition.",
         "time": "9 am to 12 (08/03/26)",
-        "venue": "Seminar hall",
+        "venue": "CSE Seminar hall (DLH)",
         "c1name": "Coordinator",
         "c2name": "",
         "c1no": "0000000000",
@@ -319,7 +295,7 @@
         "img": "/general_tech_events/wiki.jpeg",
         "content": "Wiki Race",
         "description": "Race through Wikipedia pages.",
-        "time": "1 pm to 3 pm (08/03/26)",
+        "time": "1 pm to 3.30 pm (08/03/26)",
         "venue": "Programming Lab",
         "c1name": "Abijith",
         "c2name": "Alfred",
@@ -332,53 +308,53 @@
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": [
-  {
-    "title": "Objective",
-    "points": [
-      "Navigate from the given Starting Page to the Target Page using only internal Wikipedia hyperlinks."
-    ]
-  },
-  {
-    "title": "Allowed",
-    "points": [
-      "Clicking blue hyperlinks within the article",
-      "Navigating only inside wikipedia.org"
-    ]
-  },
-  {
-    "title": "Not Allowed",
-    "points": [
-      "Using search bar",
-      "Back button",
-      "Opening new tabs",
-      "Editing the URL",
-      "External links",
-      "Ctrl + F / Find",
-      "Sidebar shortcuts"
-    ]
-  },
-  {
-    "title": "Disqualification",
-    "points": [
-      "Violation of any rule leads to immediate disqualification."
-    ]
-  },
-  {
-    "title": "Round 1 – Qualifier",
-    "points": [
-      "All participants start together.",
-      "First 5 to reach the target qualify.",
-      "Tie-breaker: Fewer clicks wins."
-    ]
-  },
-  {
-    "title": "Round 2 – Final",
-    "points": [
-      "Top 5 compete with a new challenge.",
-      "Fastest and most efficient (least clicks) wins."
-    ]
-  }
-]
+          {
+            "title": "Objective",
+            "points": [
+              "Navigate from the given Starting Page to the Target Page using only internal Wikipedia hyperlinks."
+            ]
+          },
+          {
+            "title": "Allowed",
+            "points": [
+              "Clicking blue hyperlinks within the article",
+              "Navigating only inside wikipedia.org"
+            ]
+          },
+          {
+            "title": "Not Allowed",
+            "points": [
+              "Using search bar",
+              "Back button",
+              "Opening new tabs",
+              "Editing the URL",
+              "External links",
+              "Ctrl + F / Find",
+              "Sidebar shortcuts"
+            ]
+          },
+          {
+            "title": "Disqualification",
+            "points": [
+              "Violation of any rule leads to immediate disqualification."
+            ]
+          },
+          {
+            "title": "Round 1 \u2013 Qualifier",
+            "points": [
+              "All participants start together.",
+              "First 5 to reach the target qualify.",
+              "Tie-breaker: Fewer clicks wins."
+            ]
+          },
+          {
+            "title": "Round 2 \u2013 Final",
+            "points": [
+              "Top 5 compete with a new challenge.",
+              "Fastest and most efficient (least clicks) wins."
+            ]
+          }
+        ]
       },
       {
         "id": "blind-coding",
@@ -386,7 +362,7 @@
         "img": "/general_tech_events/blind.jpeg",
         "content": "Code Without Seeing",
         "description": "Can you code with your monitor off?",
-        "time": "1 pm to 3 pm (08/03/26)",
+        "time": "1 pm to 3.30 pm (08/03/26)",
         "venue": "Programming Lab",
         "c1name": "Jyotsna",
         "c2name": "Athul",
@@ -399,23 +375,22 @@
         "reg": "Register",
         "ruleheader": "Rules",
         "rules": [
-  "The event consists of 4 rounds.",
-  "Each round has 1 coding problem.",
-  "Teams of two must assign roles: Reader and Writer.",
-  "The Reader will be shown the problem for a specified time and must explain it (including input/output format) to the Writer.",
-  "The Writer cannot see the problem and must code based only on the Reader’s explanation.",
-  "Roles must be swapped after each round.",
-  "Follow the time limits strictly for explanation and coding.",
-  "The decision of the judges will be final."
-]
+          "The event consists of 4 rounds.",
+          "Each round has 1 coding problem.",
+          "Teams of two must assign roles: Reader and Writer.",
+          "The Reader will be shown the problem for a specified time and must explain it (including input/output format) to the Writer.",
+          "The Writer cannot see the problem and must code based only on the Reader\u2019s explanation.",
+          "Roles must be swapped after each round.",
+          "Follow the time limits strictly for explanation and coding.",
+          "The decision of the judges will be final."
+        ]
       },
       {
         "id": "culturals",
         "title": "Culturals",
-        
         "content": "Cultural Night",
         "description": "Dance, Music and Fun.",
-        "time": "4.30 pm to 9 pm (08/03/26)",
+        "time": "4.30 pm to 7 pm (08/03/26)",
         "venue": "Auditorium",
         "c1name": "Coordinator",
         "c2name": "",
