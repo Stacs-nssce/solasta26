@@ -82,7 +82,7 @@
       {
         "id": "inauguration",
         "title": "Inauguration",
-        "img": "/inauguration_poster.png",
+        "img": "/inauguration_poster.jpg",
         "content": "Solasta'26 Inauguration Ceremony",
         "description": "The official kickoff of Solasta'26.",
         "time": "11 am (06/03/26)",
@@ -284,6 +284,7 @@
       {
         "id": "community-connect",
         "title": "Community Connect",
+        "img": "/community.jpg",
         "content": "Community Meetup",
         "description": "Join our community meet and connect with peers.",
         "time": "4 pm to 7 pm (07/03/26)",
